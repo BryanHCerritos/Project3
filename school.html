@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="School page with classes and education info.">
+    <meta name="author" content="Bryan Haro">
+    <title>School - My Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>My School Journey</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bryan</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="school.html">School</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Current Classes</h2>
+                <ul>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Development with HTML, CSS, and JavaScript</li>
+                    <li>Database Systems</li>
+                    <li>Software Engineering Principles</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Completed Courses</h2>
+                <ul>
+                    <li>Introduction to Computer Science</li>
+                    <li>Python and C++ Fundamentals</li>
+                    <li>Discrete Mathematics</li>
+                    <li>Operating Systems</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Optional Bootstrap Component -->
+        <h3 class="mt-5">GPA Progress</h3>
+        <div class="progress mb-4">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">3.5 GPA</div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Last updated: April 2025</p>
+        <p>Contact: <a href="mailto:fakeemail@example.com" class="text-light">fakeemail@example.com</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

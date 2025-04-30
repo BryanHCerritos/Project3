@@ -59,3 +59,57 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+/* ========== Slideshow Styling ========== */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ========== Multi-Step Form Styling ========== */
+.tab {
+    display: none;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.step.active {
+    background-color: #04AA6D;
+}
+
+.step.finish {
+    background-color: #04AA6D;
+}
